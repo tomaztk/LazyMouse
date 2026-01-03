@@ -46,4 +46,4 @@ git clone https://github.com/tomaztk/LazyMouse.git
 
 ## License
 
-MIT(c)
+MIT license
