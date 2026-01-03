@@ -5,9 +5,6 @@ is an R package with single function for moving mouse cursor in your favorite R 
 For every R developer, R data scientists and  all those everyday R users, that 
 also need a break.</span>
 
-
-<img src="figures/UURlogo.jpg" align="right" width="300" />
-
 <!-- badges: start -->
 ![](https://img.shields.io/badge/tomaztk%2FLazyMouse-repo-blue%3Flogo%3Dgithub?logo=github)
 
@@ -46,3 +43,7 @@ You can follow the steps below to clone the repository.
 ```
 git clone https://github.com/tomaztk/LazyMouse.git
 ```
+
+## License
+
+MIT(c)
