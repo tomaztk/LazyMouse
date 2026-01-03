@@ -1,4 +1,11 @@
 install.packages("remotes")
+install.packages("Rcpp")
+install.packages("devtools")
+
+library(devtools)
+library(remotes)
+library(Rcpp)
+
 detach("package:LazyMouse", unload=TRUE)
 remotes::install_github("tomaztk/LazyMouse")
 
