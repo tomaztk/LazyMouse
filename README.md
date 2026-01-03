@@ -6,17 +6,15 @@ For every R developer, R data scientists and  all those everyday R users, that
 also need a break.</span>
 
 <!-- badges: start -->
-![](https://img.shields.io/badge/tomaztk%2FLazyMouse-repo-blue%3Flogo%3Dgithub?logo=github)
+<div align="left">
+      <p>
+	    <a name="stars"><img src="https://img.shields.io/github/stars/tomaztk/LazyMouse?style=for-the-badge"></a>
+	    <a name="forks"><img src="https://img.shields.io/github/forks/tomaztk/LazyMouse?logoColor=green&style=for-the-badge"></a>
+      <a name="license"><img src="https://img.shields.io/github/license/tomaztk/LazyMouse?style=for-the-badge"></a>
 
-![](https://img.shields.io/github/forks/tomaztk/lazymouse?style=social)
+   </p>
+</div>
 <!-- badges: end -->
-
-
-## Contributors and co-authors
-
-Thanks to these wonderful community people making and helping this useless R functions better. Contributions of any kind is highly appreciated!
-
-
 
 
 ## Install the package from the Github:
@@ -43,6 +41,11 @@ You can follow the steps below to clone the repository.
 ```
 git clone https://github.com/tomaztk/LazyMouse.git
 ```
+
+
+## Contributing
+
+Thanks to these wonderful community people testing, providing feedback and making the library better! For contributing please read the [contributing file](CONTRIBUTING.md).
 
 ## License
 
