@@ -1,4 +1,5 @@
-# LazyMouse
+
+# LazyMouse <a href="https://github.com/tomaztk/LazyMouse"><img src="/figures/LazyMousePackage.png" align="right" height="138" /></a>
 
 <span style="font-size: xx-large; font-weight: normal;">`LayzMouse`
 is an R package with single function for randomly moving mouse cursor in your favorite R IDE. 
