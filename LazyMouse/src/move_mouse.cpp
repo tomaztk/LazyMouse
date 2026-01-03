@@ -12,12 +12,12 @@ using namespace Rcpp;
 
 /*
  * ============================================================
- * Windows: prevent system idle using SetThreadExecutionState
+ * Windows: prevent idle using SetThreadExecutionState
  * ============================================================
  */
 
 // [[Rcpp::export]]
-void prevent_idle_windows(int seconds) {
+void lazy_mouse_windows(int total_seconds) {
 
 #ifdef _WIN32
 
@@ -27,22 +27,23 @@ void prevent_idle_windows(int seconds) {
       ES_DISPLAY_REQUIRED
   );
 
-  Sleep(seconds * 1000);
+  Sleep(static_cast<DWORD>(total_seconds) * 1000);
+
   SetThreadExecutionState(ES_CONTINUOUS);
 
 #else
-  stop("prevent_idle_windows() is only supported on Windows.");
+  stop("lazy_mouse_windows() called on non-Windows OS");
 #endif
 }
 
 /*
  * ============================================================
- * macOS: generate real mouse movement event
+ * macOS: real mouse movement events
  * ============================================================
  */
 
 // [[Rcpp::export]]
-void move_mouse_random(int pixels = 50) {
+void lazy_mouse_macos(int pixels) {
 
 #ifdef __APPLE__
 
@@ -51,7 +52,6 @@ void move_mouse_random(int pixels = 50) {
     std::srand(static_cast<unsigned int>(std::time(nullptr)));
     seeded = true;
   }
-
 
   CGEventRef current = CGEventCreate(NULL);
   CGPoint cursor = CGEventGetLocation(current);
@@ -73,6 +73,6 @@ void move_mouse_random(int pixels = 50) {
   CFRelease(moveEvent);
 
 #else
-  stop("move_mouse_random() is only supported on macOS.");
+  stop("lazy_mouse_macos() called on non-macOS OS");
 #endif
 }

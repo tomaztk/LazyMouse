@@ -1,7 +1,7 @@
 Package: LazyMouse
 Type: Package
 Title: Simple Lazy Mouse Movement Utility
-Version: 0.3.0
+Version: 0.4.0
 Authors@R: 
     person("Tomaz", "Kastrun", , "tomaztsql@gmail.com", role = c("aut", "cre"))
 Maintainer: Tomaz Kastrun <tomaztsql@gmail.com>
