@@ -9,7 +9,7 @@ also need a break.</span>
 <img src="figures/UURlogo.jpg" align="right" width="300" />
 
 <!-- badges: start -->
-![](http://img.shields.io/badge/LazyMouse.svg)
+![](https://img.shields.io/badge/tomaztk%2FLazyMouse-repo-blue%3Flogo%3Dgithub?logo=github)
 
 ![](https://img.shields.io/github/forks/tomaztk/lazymouse?style=social)
 <!-- badges: end -->
