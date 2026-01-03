@@ -1,6 +1,9 @@
 install.packages("remotes")
+detach("package:LazyMouse", unload=TRUE)
 remotes::install_github("tomaztk/LazyMouse")
 
+# Check version
+PackageVersion(LazyMouse)
 
 library(LazyMouse)
 
