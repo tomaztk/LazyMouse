@@ -19,31 +19,32 @@ is an R package with single function for randomly moving mouse cursor in your fa
 For every R developer, R data scientists and  all those everyday R users, that 
 also need a break.</span>
 
-## Install the package from the Github:
 
+## Install the package
 ```
 install.packages("remotes")
 remotes::install_github("tomaztk/LazyMouse/LazyMouse"")
 ```
 
-## Using function lazy_mouse():
+## Usage
 
 ```
 library(LazyMouse)
 
+
 LazyMouse::lazy_mouse(
   number_of_repetitions = 5,      # number of loops
   time_between_repetitions = 10,  # time in seconds between each loop
-  pixels = 150                    # general change of x-axis and/or y-axis mouse position
+  pixels = 150                    # random change of x-axis / y-axis mouse position
 )
 ```
 
 ## Cloning  /  fork the repository
+
 You can follow the steps below to clone the repository.
 ```
 git clone https://github.com/tomaztk/LazyMouse.git
 ```
-
 
 ## Contributing
 
