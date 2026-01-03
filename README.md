@@ -1,7 +1,7 @@
 # LazyMouse
 
 <span style="font-size: xx-large; font-weight: normal;">`LayzMouse`
-is an R package with single function for moving mouse cursor in your favorite R IDE. 
+is an R package with single function for randomly moving mouse cursor in your favorite R IDE. 
 For every R developer, R data scientists and  all those everyday R users, that 
 also need a break.</span>
 
