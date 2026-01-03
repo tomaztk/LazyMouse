@@ -4,10 +4,10 @@ Contributing to LazyMove  repository
 
 How Can I Contribute?
 
-Reporting Bugs 🐛
-Suggesting Enhancements
-Your First Code Contribution
-Pull Requests
-Suggest useless R functions
-Fork and enhance
-Test the code on different versions of R or OS
+* Reporting Bugs 
+* Suggesting Enhancements
+* Your First Code Contribution
+* Pull Requests
+* Suggest useless R functions
+* Fork and enhance
+* Test the code on different versions of R or OS
