@@ -7,7 +7,7 @@ Install the package from the Github:
 
 ```
 install.packages("remotes")
-remotes::install_github("tomaztk/LazyMouse")
+remotes::install_github("tomaztk/LazyMouse/LazyMouse"")
 ```
 
 Run command:
