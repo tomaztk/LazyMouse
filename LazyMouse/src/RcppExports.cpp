@@ -10,6 +10,16 @@ Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
 Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 #endif
 
+// prevent_idle_windows
+void prevent_idle_windows(int seconds);
+RcppExport SEXP _LazyMouse_prevent_idle_windows(SEXP secondsSEXP) {
+BEGIN_RCPP
+    Rcpp::RNGScope rcpp_rngScope_gen;
+    Rcpp::traits::input_parameter< int >::type seconds(secondsSEXP);
+    prevent_idle_windows(seconds);
+    return R_NilValue;
+END_RCPP
+}
 // move_mouse_random
 void move_mouse_random(int pixels);
 RcppExport SEXP _LazyMouse_move_mouse_random(SEXP pixelsSEXP) {
@@ -22,6 +32,7 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
+    {"_LazyMouse_prevent_idle_windows", (DL_FUNC) &_LazyMouse_prevent_idle_windows, 1},
     {"_LazyMouse_move_mouse_random", (DL_FUNC) &_LazyMouse_move_mouse_random, 1},
     {NULL, NULL, 0}
 };
