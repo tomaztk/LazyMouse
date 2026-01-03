@@ -1,22 +1,23 @@
 
 # LazyMouse <a href="https://github.com/tomaztk/LazyMouse"><img src="/figures/LazyMousePackage.png" align="right" height="138" /></a>
 
-<span style="font-size: xx-large; font-weight: normal;">`LayzMouse`
-is an R package with single function for randomly moving mouse cursor in your favorite R IDE. 
-For every R developer, R data scientists and  all those everyday R users, that 
-also need a break.</span>
-
 <!-- badges: start -->
 <div align="left">
       <p>
-	    <a name="stars"><img src="https://img.shields.io/github/stars/tomaztk/LazyMouse?style=for-the-badge"></a>
-	    <a name="forks"><img src="https://img.shields.io/github/forks/tomaztk/LazyMouse?logoColor=green&style=for-the-badge"></a>
-      <a name="license"><img src="https://img.shields.io/github/license/tomaztk/LazyMouse?style=for-the-badge"></a>
+	    <a name="stars"><img src="https://img.shields.io/github/stars/tomaztk/LazyMouse?style=flat"></a>
+	    <a name="forks"><img src="https://img.shields.io/github/forks/tomaztk/LazyMouse?logoColor=green&style=flat"></a>
+      <a name="license"><img src="https://img.shields.io/github/license/tomaztk/LazyMouse?style=flat"></a>
 
    </p>
 </div>
 <!-- badges: end -->
 
+## Overview
+
+<span style="font-size: xx-large; font-weight: normal;">`LayzMouse`
+is an R package with single function for randomly moving mouse cursor in your favorite R IDE. 
+For every R developer, R data scientists and  all those everyday R users, that 
+also need a break.</span>
 
 ## Install the package from the Github:
 
