@@ -27,11 +27,15 @@ jobs:
         run: |
           sudo xcode-select --install || true
 
+      # 🔑 IMPORTANT FIX IS HERE
       - name: Install R dependencies
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: |
+          packages: |
             Rcpp
+            devtools
+          needs: |
+            rcpp
             devtools
 
       - name: Build package
