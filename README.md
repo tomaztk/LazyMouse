@@ -23,7 +23,7 @@ also need a break.</span>
 ## Install the package
 ```
 install.packages("remotes")
-remotes::install_github("tomaztk/LazyMouse"")
+remotes::install_github("tomaztk/LazyMouse")
 ```
 
 The complete installation (with all dependencies and packages preinstalled), can be found in the file: [Install_package.r](./Install_package.r). For better convenience have [RTools](https://cran.r-project.org/bin/windows/Rtools/) installed as well in your working environment.
