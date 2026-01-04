@@ -38,7 +38,6 @@ jobs:
             devtools
 
       - name: Build package
-        working-directory: LazyMouse
         run: |
           R CMD build .
 
