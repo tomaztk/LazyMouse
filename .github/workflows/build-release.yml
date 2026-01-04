@@ -38,6 +38,7 @@ jobs:
             devtools
 
       - name: Build package
+        shell: bash
         run: |
           R CMD build .
 
