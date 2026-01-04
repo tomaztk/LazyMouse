@@ -60,8 +60,7 @@ MIT license
 ## ToDO
 
 Next improvements:
-* Github Actions
-* YML file for deployment
 * Package testing (R versions and systems). Tested on R 4.4.1 and 4.3.1. versions.
 * Testing Win 10 and lower. Tested on Win11.
 * Testing MacOS 18 and lower. Tested on MacOs26.x
+* Teams / Skype / Slack online status to remain green
