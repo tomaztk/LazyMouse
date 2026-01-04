@@ -2,10 +2,10 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 lazy_mouse_windows <- function(total_seconds) {
-    invisible(.Call('_LazyMouse_lazy_mouse_windows', PACKAGE = 'LazyMouse', total_seconds))
+    invisible(.Call(`_LazyMouse_lazy_mouse_windows`, total_seconds))
 }
 
 lazy_mouse_macos <- function(pixels) {
-    invisible(.Call('_LazyMouse_lazy_mouse_macos', PACKAGE = 'LazyMouse', pixels))
+    invisible(.Call(`_LazyMouse_lazy_mouse_macos`, pixels))
 }
 
