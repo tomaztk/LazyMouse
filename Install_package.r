@@ -7,6 +7,7 @@ library(remotes)
 library(Rcpp)
 
 detach("package:LazyMouse", unload=TRUE)
+remove.packages("LazyMouse") # add  `lib` if needed path
 remotes::install_github("tomaztk/LazyMouse")
 
 # Check version
